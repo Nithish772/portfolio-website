@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact Nithish Kumar - Web Developer and ECE Student">
+    <meta name="keywords" content="Contact, Portfolio, HTML5, CSS, JavaScript">
+    <meta name="author" content="Nithish Kumar">
+
+    <title>Contact | Nithish Kumar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Nithish Kumar</h1>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section aria-labelledby="contact-heading">
+
+            <h2 id="contact-heading">Contact Me</h2>
+
+            <p>
+                If you would like to connect with me regarding projects,
+                internships, or collaborations, please fill out the form below.
+            </p>
+
+            <form action="#" method="post" aria-label="Contact Form">
+
+                <div>
+                    <label for="name">Full Name</label><br>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                        aria-required="true"
+                        tabindex="1">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email Address</label><br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                        aria-required="true"
+                        tabindex="2">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter subject"
+                        required
+                        aria-required="true"
+                        tabindex="3">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."
+                        required
+                        aria-required="true"
+                        tabindex="4"></textarea>
+                </div>
+
+                <br>
+
+                <button
+                    type="submit"
+                    aria-label="Submit Contact Form"
+                    tabindex="5">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+        <section aria-labelledby="contact-info">
+
+            <h2 id="contact-info">Contact Information</h2>
+
+            <address>
+
+                <p><strong>Email:</strong> nithish@example.com</p>
+
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+
+                <p><strong>Location:</strong> Tamil Nadu, India</p>
+
+            </address>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2026 Nithish Kumar. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
